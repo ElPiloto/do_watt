@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "do-watt"
+version = "0.1.0"
+description = ""
+authors = ["Luis Piloto <luis.r.piloto@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+textual = "^0.47.1"
+numpy = "^1.26.3"
+pandas = "^2.1.4"
+requests = "^2.31.0"
+absl-py = "^2.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
